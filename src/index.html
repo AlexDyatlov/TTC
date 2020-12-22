@@ -1,12 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 @@include('components/_head.html')
 
 <body>
   @@include('components/_header.html')
-  
-  
-
+  <section class="main">
+    <div class="container">
+      <div class="main__info">
+        <div class="main__info-date">16-19 СЕНТЯБРЯ 2021</div>
+        <div class="main__info-icon">
+          <p>И это оффлайн?</p>
+          <img src="images/bober.svg" alt="">
+        </div>
+        <h1 class="main__info-title">Новая тусовка — <br> в Новом формате!</h1>
+        <p class="main__info-descr">
+          Ежегодная закрытая встреча профессионалов телеком-бизнеса в неформальном обстановке,
+          на природе - не покидая столицу!
+        </p>
+        <div class="main__info-address">
+          Vnukovo Village Park-hotel
+          <span>Москва, Картмазово, ул. Киевская, д. 4</span>
+        </div>
+      </div>
+      <div class="items__inner">
+        <div class="info__item">
+          <div class="info__item-number">3</div>
+          <p class="info__item-text">
+            дня насыщенные общением, инсайтами и развлечением
+          </p>
+        </div>
+        <div class="info__item">
+          <div class="info__item-number">26</div>
+          <p class="info__item-text">
+            встреч, где можно обсудить настоящее и договориться о будущем
+          </p>
+        </div>
+        <div class="info__item">
+          <div class="info__item-number">350</div>
+          <p class="info__item-text">
+            единомышленников, будущих партнеров и просто хороших людей
+          </p>
+        </div>
+        <div class="info__item">
+          <div class="info__item-number">&#8734;</div>
+          <p class="info__item-text">
+            удовольствие и радость от встречи
+          </p>
+        </div>
+      </div>
+      <p class="main__text">
+        Мы считаем необходимым встречаться с единомышленниками, обсуждать происходящее и договариваться о будущем,
+        узнавать о технических новинках, инновационных решениях и реальной текущей работе телеком-компаний
+      </p>
+      <div class="social__item">
+        <div class="social__item-btn social__dropdown"></div>
+        <ul class="social__list">
+          <li class="social__list-item">
+            <a href="https://vk.com/" class="social__list-link">
+              <img src="images/vk.svg" alt="">
+            </a>
+          </li>
+          <li class="social__list-item">
+            <a href="https://ru-ru.facebook.com/" class="social__list-link">
+              <img src="images/facebook.svg" alt="">
+            </a>
+          </li>
+          <li class="social__list-item">
+            <a href="https://www.whatsapp.com/?lang=ru" class="social__list-link">
+              <img src="images/whatsapp.svg" alt="">
+            </a>
+          </li>
+          <li class="social__list-item">
+            <a href="https://web.telegram.org/#/login" class="social__list-link">
+              <img src="images/telegram.svg" alt="">
+            </a>
+          </li>    
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="events">
+    <div class="container">
+      <h2 class="events__title title">Что будет</h2>
+      <div class="events__inner">
+        <div class="event__item first__item">
+          <a class="event__item-img" href="#">
+            <img src="images/content-1.jpg" alt="">
+          </a>
+          <div class="event__info">
+            <div class="event__info-title">Препати</div>
+            <p class="event__info-text">
+              Собираемся накануне конференции, чтобы познакомиться и осмотреться
+            </p>
+            <a class="event__info-link" href="#">Наши спикеры</a>
+          </div>
+        </div>
+        <div class="event__item second__item">
+          <a class="event__item-img" href="#">
+            <img src="images/content-2.jpg" alt="">
+          </a>
+          <div class="event__info">
+            <div class="event__info-title">Доклады и дискуссии</div>
+            <p class="event__info-text">
+              На этот раз делаем акцент на инновациях и продажах. Спикеры представят свою позицию и обсудим что с этим
+              делать
+            </p>
+            <a class="event__info-link" href="#">Мероприятия</a>
+          </div>
+        </div>
+        <div class="event__item">
+          <a class="event__item-img" href="#">
+            <img src="images/content-3.jpg" alt="">
+          </a>
+          <div class="event__info event__info--left">
+            <div class="event__info-title">Питающая обстановка</div>
+            <p class="event__info-text">
+              Для личных бесед и бизнес-прогулок на территории парк-отеля есть беседки, облагороженный пруд и мангальная
+              зона
+            </p>
+            <a class="event__info-link" href="#">Место встречи</a>
+          </div>
+        </div>
+        <div class="event__item fourt__item">
+          <a class="event__item-img" href="#">
+            <img src="images/content-4.jpg" alt="">
+          </a>
+          <div class="event__info event__info--left">
+            <div class="event__info-title">Тусовки, игры и инсайты</div>
+            <p class="event__info-text">
+              А также плов, тусовки у воды, stand up и похмельные дебаты о главных вопросах - кто, виноват, что делать и
+              почему мы все не умрем
+            </p>
+            <a class="event__info-link" href="#">Тезисы прошлой встречи</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   @@include('components/_footer.html')
   @@include('components/_scripts.html')
 </body>

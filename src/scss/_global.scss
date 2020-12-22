@@ -40,3 +40,38 @@ button:focus,
 input:focus {
   outline: transparent;
 }
+
+body{
+  color: #000;
+  font-size: 16px;
+  line-height: 19px;
+  @include f700;
+  font-variant: small-caps;
+}
+
+.top-container{
+  max-width: 1470px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container{
+  max-width: 1228px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 52px;
+  line-height: 52px;
+  font-variant: all-small-caps;
+  position: relative;
+  &::before{
+    position: absolute;
+    content: '';
+    background: center/cover no-repeat url('../images/line.svg');
+    top: -6px;
+    left: 0;
+    width: 91px;
+    height: 15px;
+  }
+}

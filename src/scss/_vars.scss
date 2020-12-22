@@ -1,0 +1,15 @@
+$bg-color: #3880F4;
+$ice: #99F2DC;
+$color-text: #C5E8F8;
+$cerulean: #08B3F7;
+$dark-blue: #1A64DA;
+
+@mixin f400{
+  font-family: 'Calibri-Regular';
+  font-weight: 400;
+}
+
+@mixin f700{
+  font-family: 'Calibri-Bold';
+  font-weight: 700;
+}
